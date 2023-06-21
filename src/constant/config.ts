@@ -1,0 +1,1 @@
+ export const HOMEURL = "/react-assignment-";
