@@ -5,11 +5,11 @@ import Job from "./pages/Job";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/react-assignment-/",
+      path: HOMEURL,
       element: <Home />,
     },
     {
-      path: "/react-assignment-/job/:id",
+      path:  HOMEURL +  "/job/:id",
       element: <Job />,
     },
   ]);
