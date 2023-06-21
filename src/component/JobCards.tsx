@@ -12,7 +12,7 @@ function JobCards (props: any) {
  return (
    <div
      onClick={() => {
-       navigate(`/job/${props.job.id}`);
+       navigate( HOMEURL +`/job/${props.job.id}`);
      }}
      className="border p-4 rounded-md w-[350px] space-y-4 cursor-pointer"
    >
