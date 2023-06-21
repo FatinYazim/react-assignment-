@@ -1,5 +1,6 @@
 
 import { useNavigate } from "react-router-dom";
+import { HOMEURL } from "./constant/config";
 
 function JobCards (props: any) {
  //  function to detect if the year is 2023, isNew === true
